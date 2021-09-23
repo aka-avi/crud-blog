@@ -1,0 +1,125 @@
+*{
+}
+
+body{
+	margin: 0;
+	background: #ddd;
+	font-size: 19px;
+	line-height: 1.5rem;
+	/*width: 100vw;*/
+	/*overflow: hidden;*/
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.btn{
+	border: 2px solid black;
+	padding: 4px 6px;
+	margin-top: 15px;
+	border-radius: 2px;
+}
+
+.container{
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 21px;
+}
+
+.header{
+	padding: 10px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header nav ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+
+nav li{
+	align-self: flex-end;
+	margin: 0 20px;
+}
+
+.heading{
+	text-align: center;
+}
+
+.article{
+	background: #ccc;
+	padding: 5px 25px 20px 25px;
+	margin: 15px auto;
+}
+
+.article h3{
+	font-size: 32px;
+}
+
+.addpost h1{
+	text-align: center;
+}
+
+.postbtn{
+	padding: 8px 25px;
+	cursor: pointer;
+	font-size: 21px;
+	border-radius: 5px;
+}
+
+.postbtn:hover{
+	box-shadow: 3px 3px 10px #000;
+}
+
+.formgroup{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.formgroup > * {
+	margin: 5px auto;
+}
+
+.formgroup input[type="text"]{
+	width: 80%;
+	padding: 10px 20px;
+}
+
+textarea{
+	width: 80%;
+	padding: 10px 20px;
+	height: 300px;
+	resize: none;
+}
+
+
+.addpost{
+	max-width: 700px;
+	margin: auto;
+	background: #ccc;
+}
+
+.danger{
+	background: red;
+	color: #fff;
+	padding: 8px 12px;
+	font-size: 20px;
+	cursor: pointer;
+}
